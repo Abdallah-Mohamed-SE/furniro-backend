@@ -45,23 +45,28 @@
 1. **Install dependencies:**
    ```bash
    npm install
-Configure environment variables:
-Copy .env.example to .env and update your PostgreSQL credentials:
+   ```
 
-Bash
-cp .env.example .env
-Run database migrations and seed initial data:
+2. **Configure environment variables:**
+   Copy `.env.example` to `.env` and update your PostgreSQL credentials:
+   ```bash
+   cp .env.example .env
+   ```
 
-Bash
-npm run db:migrate
-npm run db:seed
-Start the development server:
+3. **Run database migrations and seed initial data:**
+   ```bash
+   npm run db:migrate
+   npm run db:seed
+   ```
 
-Bash
-npm run start:dev
-🌐 API Base URL: http://localhost:8000/api
+4. **Start the development server:**
+   ```bash
+   npm run start:dev
+   ```
+   * 🌐 **API Base URL:** `http://localhost:8000/api`
+   * 📚 **Swagger Documentation:** `http://localhost:8000/api/docs`
 
-📚 Swagger Documentation: http://localhost:8000/api/docs
+---
 
-📄 License
-MIT License — Copyright (c) 2026 Abdallah Mohamed
+## 📄 License
+MIT License — Copyright (c) 2026 **Abdallah Mohamed**
