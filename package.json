@@ -1,10 +1,10 @@
 {
   "name": "furniro-backend",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "Furniro E-Commerce Full-Stack API (NestJS + Prisma + PostgreSQL)",
+  "author": "Abdallah Mohamed",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "node node_modules/@prisma/prisma7/build/index.js generate --config prisma7.config.js && nest build",
     "deploy": "nest deploy",
